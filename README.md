@@ -21,3 +21,6 @@ And we can use Global Error Handling
 window.onerror = function (message, source, lineno, colno, error) {
 // Handle the global error here
 };
+
+Please follow the link to follow to the site: https://kan-canva.netlify.app/
+![SCREENSHOT](image.png)
