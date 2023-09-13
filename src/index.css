@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   @apply bg-gray-100
+
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.hstyle{
+    @apply transition-all  hover:translate-y-1 hover:shadow-lg
+}
